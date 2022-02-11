@@ -1,0 +1,70 @@
+.words-body {
+    width: 550px;
+    height: 700px;
+    border: 3px solid lightsteelblue;
+    margin-left: 30%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.body-text {
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+}
+.text-font {
+    font-size: 7em;
+    padding-top: 1.5em;
+    text-align: center;
+}
+.buttons {
+    width: 100%;
+    height: 100%;
+    margin-top: -700px;
+}
+.header {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid red;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.content {
+    /* border: 1px solid yellow; */
+    height: 93%;
+    display: flex;
+    flex-direction: row;
+}
+.left-half {
+    /* border: 1px solid blue; */
+    width: 50%;
+    height: 100%;
+    cursor: url("../assets/icos/left-ico.ico"), pointer;
+}
+.right-half {
+    /* border: 1px solid rebeccapurple; */
+    width: 50%;
+    height: 100%;
+    cursor: url("../assets/icos/right-ico.ico"), pointer;
+}
+button {
+    width: 79px;
+    height: 25px;
+    border-radius: 7px;
+    align-items: center;
+    margin-right: 10px;
+    line-height: 19px;
+    background-color: aquamarine;
+}
+.order-button{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: gray;
+}
+.random-button {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}

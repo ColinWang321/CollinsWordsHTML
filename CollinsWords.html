@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>Collins Star Words</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <!-- 后面记得改成BEM命名 -->
+    <div class="words-body">
+        <div class="body-text">
+            <h1 class="text-font"></h1>
+        </div>
+        
+        <!-- 4 个button，两个在顶部，顺序播放或者随机播放。 一个左按钮一个右按钮 - 或者是左半区前一个单词，右半区向后 -->
+        <div class="buttons">
+            <div class="header">
+                <button class="order-button">ORDER</button>
+                <button class="random-button">RANDOM</button>
+            </div>
+            <div class="content">
+                <div class="left-half"></div>
+                <div class="right-half"></div>
+            </div>
+        </div>
+    </div>
+</body>
